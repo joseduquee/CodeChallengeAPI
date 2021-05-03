@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodeChallengeAPI</name>
+    </assembly>
+    <members>
+        <member name="M:CodeChallengeAPI.Controllers.CountriesController.Index">
+            <summary>
+            Por medio de este metodo se obtiene la lista entera de todos los paises
+            </summary>
+        </member>
+        <member name="M:CodeChallengeAPI.Controllers.CountriesController.Index(System.String)">
+            <summary>
+            Por el nombre parcial o completo de un pais se obtiene la informacíon de el
+            </summary>
+        </member>
+        <member name="M:CodeChallengeAPI.Controllers.CountriesController.GetFlag(System.String)">
+            <summary>
+            Este metodo responde una cadena de texto base64 de la bandera flag, donde se ha hecho la conversion del tipo .svg a .png y seguidamente a base64 por un array de bytes
+            </summary>
+        </member>
+        <member name="M:CodeChallengeAPI.Controllers.CountriesController.Post(System.String)">
+             <summary>
+             Este metodo post permite transferir la información de un pais del api al modelo del microservicio para almacenarlo.
+             </summary>
+             /// <remarks>
+             Ejemplo de petición
+            
+                 Escribir entre comillas nombre o parte del nombre del pais que se quiere almacenar
+            
+             </remarks>
+        </member>
+    </members>
+</doc>
